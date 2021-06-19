@@ -1,0 +1,365 @@
+QWidget#loginbackground {
+   background-color: black;  
+}
+
+QLabel#admin{
+  font-size:12px;
+  color: green;
+  qproperty-alignment: AlignRight;
+  background-color: none;
+  padding:0px;
+  margin:0px;
+  }
+
+
+QPushButton#signinbutton {
+    border: 2px solid #8f8f91;
+    border-radius: 6px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f6f7fa, stop: 1 #00c6ff);
+    min-width: 80px;
+    height:20px;   
+}    
+
+
+QPushButton:pressed#signinbutton {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+
+QPushButton:flat#signinbutton {
+    border: none; /* no border for a flat push button */
+}
+
+QLineEdit#signlineedit {
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 0 8px;
+    background: aliceblue;
+    selection-background-color: darkgray;
+    height:25px;
+}
+
+
+
+
+QLabel#titlelabel{
+  font-size:18px;
+  font-weight: bold;
+   padding:2px;
+  qproperty-alignment: AlignCenter;
+  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f6f7fa, stop: 1 #00c6ff);
+  color: white;
+  }
+
+QLabel#queslabel{
+  font-size:15px;
+  font-weight: bold;
+  color: white;
+  qproperty-alignment: AlignLeft;
+  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f6f7fa, stop: 1 #00c6ff);
+  }
+
+
+
+QPushButton#submitbtn {
+    padding:3px;
+    font-size:15px;
+    color: white;
+    border: 2px solid #8f8f91;
+    border-radius: 6px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #f6f7fa, stop: 1 #00c6ff);
+    min-width: 60px;
+    height:25px;
+    }
+
+QPushButton:pressed#submitbtn{
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+QPushButton#submitbtn:hover{
+font-weight: bold;
+font-size:15px;
+color: green;
+    
+}
+
+QPushButton#sectionbtn {
+    padding:4px;
+    font-size:15px;
+    font-weight: bold;
+    margin-left:5px;
+    color: white;
+    border: 2px solid #8f8f91;
+    border-radius: 6px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #9da49d, stop: 1 #9da49d);
+    min-width: 75px;
+    height:20px;
+    }
+
+QPushButton:pressed#sectionbtn{
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+
+
+QPushButton:pressed#nextbtn{
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+QPushButton:hover#nextbtn{
+   background-image:url('image/arrow-left.png');
+}
+
+
+QPushButton:pressed#prevbtn{
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+
+QLabel#subject{
+  font-size:15px;
+  font-weight: bold;
+  color: white;
+  padding:0px;
+  qproperty-alignment: AlignCenter;
+  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #00c6ff, stop: 1 #00c6ff);
+  
+  }
+
+
+QWebEngineView#currquestion{
+  min-height:250px;
+  }
+
+
+
+
+ QRadioButton#currquestion{
+  font-size:14px;
+  color: black;
+  margin:5px 5px 5px 20px;
+ 
+  } 
+
+QLineEdit#textanswer{
+font-size:15px;
+color: green;
+padding:2px;
+margin: 50px;
+qproperty-alignment: AlignLeft;
+background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                  stop: 0 green, stop: 1 green);
+
+} 
+
+QLabel#questionlabel{
+  font-size:15px;
+  font-weight: bold;
+  color: white;
+  padding:2px;
+  margin-bottom: 10px;
+  qproperty-alignment: AlignLeft;
+  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 green, stop: 1 green);
+ 
+  } 
+
+QLabel#brand_name{
+  font-size:20px;
+  font-weight: bold;
+  color: green;
+  padding:2px;
+  qproperty-alignment: AlignLeft; 
+  }  
+
+QPushButton#answeredbtn {
+    font-size:15px;
+    font-weight: bold;
+    margin:3px;
+    color: white;
+    padding:2px;
+    border: 2px solid #8f8f91;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border:1px solid green;
+    background-color: green;
+    max-width: 25px;
+    max-height:20px;
+    }
+
+QPushButton#notansweredbtn {
+    font-size:15px;
+    font-weight: bold;
+    margin:2px;
+    color: white;
+    padding:2px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border:1px solid red;
+    background-color: red;
+    max-width: 25px;
+    max-height:20px;
+    }  
+
+QPushButton#notvisitedbtn {
+    font-size:15px;
+    font-weight: bold;
+    margin:2px;
+    color: white;
+    padding:2px;
+    border:1px solid #9da49d;
+    background-color: #9da49d;
+    max-width: 25px;
+    max-height:20px;
+    border-radius: 6px;
+    }   
+
+QPushButton#quesnobtn {
+    font-size:17px;
+    font-weight: bold;
+    margin:2px;
+    color: white;
+    padding:2px;
+    border:1px solid #9da49d;
+    background-color: #9da49d;
+    max-width: 25px;
+    max-height:20px;
+    border-radius: 6px;
+    }
+
+
+QToolButton#dashboardcontent {
+    font-size:12px;
+    color: #686e70;
+    margin-top:10px;
+    padding-bottom:4px;
+    border:1px solid #9da49d;
+    width: 110px;
+    height:110px;
+    border-radius: 5px; 
+
+    }
+
+  
+QToolButton#dashboardcontent:hover {
+    font-size:14px;
+    color: green;
+    font-weight: bold;
+    margin-top:10px;
+    padding-bottom:4px;
+    border:1px solid #9da49d;
+    width: 120px;
+    height:120px;
+    border-radius: 5px; 
+
+    }                    
+
+
+ QLabel#schedulelabel{
+  font-size:14px;
+  font-weight: bold;
+  color: white;
+  qproperty-alignment: AlignLeft;
+  
+  }   
+
+
+QHeaderView::section {
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #d8ecf5, stop: 0.4 #d8ecf5,
+                                stop: 0.5 #d8ecf5, stop: 1.0 #d8ecf5);
+ 
+} 
+
+
+
+QPushButton#testbtn {
+    font-size:12px;
+    color: #686e70;
+    margin:1px;
+    border: 1px solid #8f8f91;
+    border-radius: 4px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #f6f7fa, stop: 1 #00c6ff);
+  
+    }
+
+QPushButton:hover#testbtn{
+    font-size:14px;
+    font-weight:bold;
+    color: #00c6ff;
+}    
+
+
+QLabel#profile{
+  font-size:15px;
+  font-weight: bold;
+  padding:0px;
+  color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f6f7fa, stop: 1 #00c6ff);
+  qproperty-alignment: AlignLeft;
+
+  }
+
+QComboBox#questionspec {
+    font-size:12px;
+    color: #686e70;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 2px;
+    background: aliceblue;
+    selection-background-color: darkgray;
+    height:20px;
+    min-width:80px;
+}
+
+QTextEdit#questionspec {
+    font-size:15px;
+    color: #686e70;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 1px;
+    background: aliceblue;
+    selection-background-color: darkgray;
+    
+}
+
+QLabel#schedule{
+  padding:2px;
+  qproperty-alignment: AlignCentre;
+  font-size:15px;
+  color: rgba(0,0,0,150);
+}
+
+
+
+QPushButton#viewresultbutton {
+    font-size:15px;
+    color: green;
+    margin-top:10px;
+    padding-bottom:4px;
+    border:1px solid 0 4px 8px 0 rgba(0,0,0,0.2) , 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: white;
+    max-width: 110px;
+    height:110px;
+    border-radius: 5px; 
+
+}
+QPushButton#viewresultbutton:hover {
+background-color: darkgray;
+} 
