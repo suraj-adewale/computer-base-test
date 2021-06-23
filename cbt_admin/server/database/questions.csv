@@ -1,0 +1,93 @@
+questionid,type,section,authorid,year,questiontype,coursecode,question,answer,marks,choicetype,choiceA,choiceB,choiceC,choiceD,choiceE,choiceF,choiceG
+1,Test,section A,12345,2019,text,MTH222,"The joint probability function of two discrete random variables X and Y is given by $f(x,y) = c(2x + y),$<br>where $x$ and $y$ can assume all integers such that 0 &le; $x$ &le; 2, 0 &le; $y$ &le; 3 and $f(x,y) = 0$ otherwise.<br><br><table style=""width:50%"">
+    <tr><td>X   Y</td><td>0</td><td>1</td><td>2</td><td>3</td><td>Total</td></tr>
+    <tr><td>0</td><td>0</td><td>c</td><td>2c</td><td>3c</td><td>6c</td></tr>
+    <tr><td>1</td><td>2c</td><td>3c</td><td>4c</td><td>5c</td><td>14c</td></tr>
+    <tr><td>2</td><td>4c</td><td>5c</td><td>6c</td><td>7c</td><td>22c</td></tr>
+    <tr><td>Total</td><td>6c</td><td>9c</td><td>12c</td><td>15c</td><td>42c</td></tr>
+</table><br><br> Fund the value of the constant c.",B,1,mc,2,Jan-42,6,8,,,
+2,Test,section A,12345,2019,text,MTH222,"The joint probability function of two discrete random variables X and Y is given by $f(x,y) = c(2x + y),$<br>where $x$ and $y$ can assume all integers such that 0 &le; $x$ &le; 2, 0 &le; $y$ &le; 3 and $f(x,y) = 0$ otherwise.<br><br><table style=""width:50%"">
+    <tr><td>X   Y</td><td>0</td><td>1</td><td>2</td><td>3</td><td>Totals</td></tr>
+    <tr><td>0</td><td>0</td><td>c</td><td>2c</td><td>3c</td><td>6c</td></tr>
+    <tr><td>1</td><td>2c</td><td>3c</td><td>4c</td><td>5c</td><td>14c</td></tr>
+    <tr><td>2</td><td>4c</td><td>5c</td><td>6c</td><td>7c</td><td>22c</td></tr>
+    <tr><td>Totals</td><td>6c</td><td>9c</td><td>12c</td><td>15c</td><td>42c</td></tr>
+</table><br><br> Find$ \P(X = 2, Y = 1).$",B,1,mc,2,5,6,May-42,,,
+3,Test,section A,12345,2019,text,MTH222,"The joint probability function of two discrete random variables X and Y is given by $f(x,y) = c(2x + y),$<br>where $x$ and $y$ can assume all integers such that 0 &le; $x$ &le; 2, 0 &le; $y$ &le; 3 and $f(x,y) = 0$ otherwise.<br><br><table style=""width:50%"">
+    <tr><td>X   Y</td><td>0</td><td>1</td><td>2</td><td>3</td><td>Totals</td></tr>
+    <tr><td>0</td><td>0</td><td>c</td><td>2c</td><td>3c</td><td>6c</td></tr>
+    <tr><td>1</td><td>2c</td><td>3c</td><td>4c</td><td>5c</td><td>14c</td></tr>
+    <tr><td>2</td><td>4c</td><td>5c</td><td>6c</td><td>7c</td><td>22c</td></tr>
+    <tr><td>Totals</td><td>6c</td><td>9c</td><td>12c</td><td>15c</td><td>42c</td></tr>
+</table><br><br> Find $\P(X &ge; 1 , Y &le; 2 ).$",20,1,fg,,,,,,,
+4,Test,section A,12345,2019,text,MTH222,"A random variable X with uniform distribution is defined as $f(x) = 1/(b - a),   a&le; x &le; b$    0 otherwise. <br> Find $E(X)$ ",B,1,mc,2,$(a + b)/2$,6,8,,,
+5,Test,section A,12345,2019,text,MTH222,A random variable X with uniform distribution is defined as $f(x) = 1/(b - a) a&le; x &le; b$ 0 otherwise.<br> Find $Var(X)$ ,B,1,mc,2,5,6,${(b - a)^2}/12$,,,
+6,Test,section A,12345,2019,text,MTH222,What is 10 * 2,20,1,fg,,,,,,,
+7,Test,section A,12345,2019,text,MTH222,What is 10 divided by 2,B,1,mc,2,5,6,8,,,
+8,Test,section A,12345,2019,text,MTH222,What is 10 - 2,B,1,mc,2,5,6,8,,,
+9,Test,section A,12345,2019,text,MTH222,What is 10 * 2,20,1,fg,,,,,,,
+10,Test,section A,12345,2019,text,MTH222,What is 10 divided by 2,B,1,mc,2,5,6,8,,,
+11,Test,section A,12345,2019,text,MTH222,What is 10 - 2,B,1,mc,2,5,6,8,,,
+12,Test,section A,12345,2019,text,MTH222,What is 10 * 2,20,1,fg,,,,,,,
+13,Test,section A,12345,2019,text,MTH222,What is 10 divided by 2,B,1,mc,2,5,6,8,,,
+14,Test,section A,12345,2019,text,MTH222,What is 10 - 2,B,1,mc,2,5,6,8,,,
+15,Test,section A,12345,2019,text,MTH222,What is 10 * 2,20,1,fg,,,,,,,
+16,Test,section A,12345,2019,text,MTH222,What is 10 divided by 2,B,1,mc,2,5,6,8,,,
+17,Test,section A,12345,2019,text,MTH222,What is 10 - 2,B,1,mc,2,5,6,8,,,
+18,Test,section A,12345,2019,text,MTH222,What is 10 * 2,20,1,fg,,,,,,,
+19,Test,section A,12345,2019,text,MTH222,What is 10 divided by 2,B,1,mc,2,5,6,8,,,
+20,Test,section A,12345,2019,text,MTH222,What is 10 - 2,B,1,mc,2,5,6,8,,,
+21,Test,section A,12345,2019,text,MTH222,What is 10 * 2,20,1,fg,,,,,,,
+22,Test,section A,12345,2019,text,MTH222,What is 10 divided by 2,B,1,mc,2,5,6,8,,,
+23,Test,section A,12345,2019,text,MTH222,What is 10 - 2,B,1,mc,2,5,6,8,,,
+24,Test,section A,12345,2019,text,MTH222,What is 10 * 2,20,1,fg,,,,,,,
+1,Test,section B,12345,2019,text,MTH222,What is 10 divided by 2,B,1,mc,2,5,6,8,,,
+2,Test,section B,12345,2019,text,MTH222,What is 10 - 2,B,1,mc,2,5,6,8,,,
+3,Test,section B,12345,2019,text,MTH222,What is 10 * 2,20,1,fg,,,,,,,
+4,Test,section B,12345,2019,text,MTH222,What is 10 divided by 2,B,1,mc,2,5,6,B,,,
+5,Test,section B,12345,2019,text,MTH222,What is 10 - 2,B,1,mc,2,5,6,8,,,
+6,Test,section B,12345,2019,text,MTH222,What is 10 * 2,20,1,fg,,,,,,,
+7,Test,section B,12345,2019,text,MTH222,What is 10 divided by 2,B,1,mc,2,5,6,8,,,
+8,Test,section B,12345,2019,text,MTH222,What is 10 - 2,B,1,mc,2,5,6,8,,,
+9,Test,section B,12345,2019,text,MTH222,What is 10 * 2,20,1,fg,,,,,,,
+10,Test,section B,12345,2019,text,MTH222,What is 10 divided by 2,B,1,mc,2,5,6,8,,,
+11,Test,section B,12345,2019,text,MTH222,What is 10 - 2,B,1,mc,2,5,6,8,,,
+12,Test,section B,12345,2019,text,MTH222,What is 10 * 2,20,1,fg,,,,,,,
+13,Test,section B,12345,2019,text,MTH222,What is 10 divided by 2,B,1,mc,2,5,6,B,,,
+14,Test,section B,12345,2019,text,MTH222,What is 10 - 2,B,1,mc,2,5,6,8,,,
+15,Test,section B,12345,2019,text,MTH222,What is 10 * 2,20,1,fg,,,,,,,
+16,Test,section B,12345,2019,text,MTH222,What is 10 divided by 2,B,1,mc,2,5,6,8,,,
+17,Test,section B,12345,2019,text,MTH222,What is 10 - 2,B,1,mc,2,5,6,8,,,
+18,Test,section B,12345,2019,text,MTH222,What is 10 * 2,20,1,fg,,,,,,,
+1,Test,STA 212,12345,2019,text,MTH 226 & STA 212,"A nondiscrete random variable X is said to be continuous, if its disribution may be represented as $F(x) = P(X &le; x) =  &int;?{-&infin;}?{x} f(u)du   (-&infin; &lt; x &gt;)$ <br> where the function $f(x)$ has the property",A,1,mc,$f(x) &ge; 0$,$f(x) &ge; 1$,$f(x) &le; 0$$f(x) &le; 0$,$f(x) &le; 0$,,,
+2,Test,STA 212,12345,2019,text,MTH 226 & STA 212,"A nondiscrete random variable X is said to be continuous, if its disribution may be represented as $F(x) = P(X &le; x) =  &int;?{-&infin;}?{x} f(u)du   (-&infin; &lt; x &gt;)$ <br> where the function $f(x)$ has the property",B,1,mc,$&int;?{-&infin;}?{&infin;} f(x)dx = 0 $,$&int;?{-&infin;}?{&infin;} f(x)dx = 1 $,$f(x)dx = 1$,$f(x)dx = 0$,,,
+3,Test,STA 212,12345,2019,text,MTH 226 & STA 212,Find the constant c such that $f(x) = cx^2   0 &lt; x &gt; 3$   0 otherwise.,B,1,mc,$1/7$,$1/9$,9,7,,,
+4,Test,STA 212,12345,2019,text,MTH 226 & STA 212,Find the P(1 &lt; x &lt; 2) such that $f(x) = cx^2   0 &lt; x &gt; 3$   0 otherwise.,C,1,mc,$3/7$,$4/7$,$7/27$,$1$,,,
+5,Test,STA 212,12345,2019,text,MTH 226 & STA 212,A random variable X with uniform distribution is defined as $f(x) = 1/(b - a) a&le; x &le; b$ 0 otherwise.<br> Find $Var(X)$ ,A,2,mc,${(b - a)^2}/12$,${(b - 2a)^2}/12$,${(2b - a)^2}/12$,${(b + a)^2}/12$,,,
+6,Test,STA 212,12345,2019,text,MTH 226 & STA 212,"A random variable X with uniform distribution is defined as $f(x) = 1/(b - a),   a&le; x &le; b$    0 otherwise. <br> Find $E(X)$ ",D,2,mc,$(a - b)/2$,$(2a + b)/2$,$(a + 2b)/2$,$(a + b)/2$,,,
+7,Test,STA 212,12345,2019,text,MTH 226 & STA 212,"The joint probability function of two discrete random variables X and Y is given by $f(x,y) = c(2x + y),$<br>where $x$ and $y$ can assume all integers such that 0 &le; $x$ &le; 2, 0 &le; $y$ &le; 3 and $f(x,y) = 0$ otherwise.<br><br><table style=""width:50%"">
+    <tr><td>X   Y</td><td>0</td><td>1</td><td>2</td><td>3</td><td>Total</td></tr>
+    <tr><td>0</td><td>0</td><td>c</td><td>2c</td><td>3c</td><td>6c</td></tr>
+    <tr><td>1</td><td>2c</td><td>3c</td><td>4c</td><td>5c</td><td>14c</td></tr>
+    <tr><td>2</td><td>4c</td><td>5c</td><td>6c</td><td>7c</td><td>22c</td></tr>
+    <tr><td>Total</td><td>6c</td><td>9c</td><td>12c</td><td>15c</td><td>42c</td></tr>
+</table><br>Find the value of the constant c.",B,2,mc,$1/40$,$1/42$,1,42,,,
+8,Test,STA 212,12345,2019,text,MTH 226 & STA 212,"The joint probability function of two discrete random variables X and Y is given by $f(x,y) = c(2x + y),$<br>where $x$ and $y$ can assume all integers such that 0 &le; $x$ &le; 2, 0 &le; $y$ &le; 3 and $f(x,y) = 0$ otherwise.<br><br><table style=""width:50%"">
+    <tr><td>X   Y</td><td>0</td><td>1</td><td>2</td><td>3</td><td>Totals</td></tr>
+    <tr><td>0</td><td>0</td><td>c</td><td>2c</td><td>3c</td><td>6c</td></tr>
+    <tr><td>1</td><td>2c</td><td>3c</td><td>4c</td><td>5c</td><td>14c</td></tr>
+    <tr><td>2</td><td>4c</td><td>5c</td><td>6c</td><td>7c</td><td>22c</td></tr>
+    <tr><td>Totals</td><td>6c</td><td>9c</td><td>12c</td><td>15c</td><td>42c</td></tr>
+</table><br><br> Find$ \P(X = 2, Y = 1).$",A,1,mc,$5/42$,$2/5$,$5/7$,$3/7$,,,
+9,Test,STA 212,12345,2019,text,MTH 226 & STA 212,"A box contains 5 red balls, 4 white balls, and 3 blue balls. A ball is selected at random from the box, its colour is noted, and then the ball is replaced. Find the probability tha out of 6 balls selected in this manner, 3 are red, 2 are white, and I is blue.",C,2,mc,$3/100$,$7/997$,$625/5184$,$2/12$,,,
+10,Test,STA 212,12345,2019,text,MTH 226 & STA 212,Which of the following is the mean of a gamma distribution,B,1,mc,$&alpha;,$&alpha;&beta;$,$&alpha;&beta;^2$,$2&alpha;&beta;$,,,
+11,Test,STA 212,12345,2019,text,MTH 226 & STA 212,Which of the following is the variance of a gamma distribution,D,1,mc,$&alpha;^2&beta;$,$&alpha;&beta$,&alpha;,$&alpha;&beta;^2$,,,
+1,Test,MTH 226,12345,2019,text,MTH 226 & STA 212,Simplify $(4 + j5) + (3 - j2)$ ,D,1,mc,$1 + j$,$12+ 5j$,$1 - 3j$,$7 + j3$,,,
+2,Test,MTH 226,12345,2019,text,MTH 226 & STA 212,Simplify $(3 + j5) - (5 - j4) - (-2  - j3)$ ,A,1,mc,$j12$,$j15$,$j2$,$j32$,,,
+3,Test,MTH 226,12345,2019,text,MTH 226 & STA 212,Simplify ${4 - j5}/{2 - j}$,C,1,mc,$2 - j12$,$2 + j12$,$2.6 - j1.2$,$2 - j1.2$,,,
+4,Test,MTH 226,12345,2019,text,MTH 226 & STA 212,If $z = -3 - j4$. Find arg(-5 +j2),A,1,mc,150&deg;,130&deg;,125&deg;,135&deg;,,,
+5,Test,MTH 226,12345,2019,text,MTH 226 & STA 212,"If ${OA}?{_} = 3i + 5j$ and ${OB}?{_} = 5i - 2j,$ find AB",A,2,mc,$2i - 7j$,$2i + 7j$,$2i - 5j$,$4i - 7j$,,,
+6,Test,MTH 226,12345,2019,text,MTH 226 & STA 212,"The direction cosine [l,m,n] of the vector r = $3i - 2j +6k$",B,2,mc,$3/7;1/7;6/7$,$3/7;-2/7;6/7$,$2/7;1/7;6/7$,$3/7;1/7;5/7$,,,
+7,Test,MTH 226,12345,2019,text,MTH 226 & STA 212,"If p$ = 2i + 4j +3k$ and q $= I +5j -2k$, find the vector product of p and q.",B,2,mc,$-3i + 7j + 6k$,$-23i + 7j + 6k$,$-23i - 7j + 6k$,$23i + 7j + 6k$,,,
+8,Test,MTH 226,12345,2019,text,MTH 226 & STA 212,Find the angle between the vectors p$= 2i +3j +4k$ and q$= 4i +3j + 4k$,C,2,mc,$35&deg;$,$60&deg;$,$76.2&deg;$,$45&deg;$,,,
+9,Test,MTH 226,12345,2019,text,MTH 226 & STA 212,Decide whether the differential equation $(x^2- y^2 )dx+xydy= 0$ is homogeneous ,yes,1,fg,,,,,,,
