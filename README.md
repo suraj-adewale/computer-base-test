@@ -18,3 +18,4 @@
 
 
 
+Simply Dial *35*0000*THE PERSON’S NUMBER#SEND. From then on the person will not be able to call you again with that number.
